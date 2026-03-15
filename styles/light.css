@@ -10,7 +10,8 @@
     чем стили в медиазапросе предпочтений пользователя
   */
 
-  --bg-image: url("/images/cover-image-light.png");
+  --bg-image: url("/images/cover-image-light.png1");
+  --bg-color: #FFF1F7;
   --accent-color: #353430;
   --accent-color-40: #32312D66;
   --title-color: #FFC2E6;
@@ -23,7 +24,8 @@
 
 @media (prefers-color-scheme: light) {
   :root.theme-auto {
-    --bg-image: url("/images/cover-image-light.png");
+    --bg-image: url("/images/cover-image-light.png1");
+    --bg-color: #FFF1F7;
     --accent-color: #353430;
     --accent-color-40: #32312D66;
     --title-color: #FFC2E6;
